@@ -2,4 +2,6 @@ mysql_data
 public
 public/*
 .htaccess
-./composer.lock
+composer.lock
+vendor
+vendor/*
