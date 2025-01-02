@@ -5,3 +5,6 @@ public/*
 composer.lock
 vendor
 vendor/*
+compose.yml
+.env
+page_views.sql
