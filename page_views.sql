@@ -1,0 +1,8 @@
+CREATE TABLE page_views (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    page VARCHAR(255) NOT NULL,
+    ip VARCHAR(45) NOT NULL,
+    user_agent TEXT NOT NULL,
+    timestamp DATETIME NOT NULL
+);

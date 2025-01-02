@@ -1,0 +1,20 @@
+{
+    "name": "d4v/light-traffic-monitor",
+    "description": "Light and fast php lib for monitoring http requests in a low traffic environnement",
+    "type": "llibrary",
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "D4v\\LightTrafficMonitor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Courtin",
+            "email": "courtin.david@gmail.com"
+        }
+    ],
+    "require": {}
+}
